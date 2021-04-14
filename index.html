@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code 201: Class 1</title>
+    <style>
+        body {
+            color: #BDECEA;
+        }
+        li {
+            border-width: thin;
+            border-color: #346966;
+            border-style: dotted;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:#346966;">Class 1 Lab</h1>
+    
+    <p style="color:#5BB5B1;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores explicabo facilis ipsam aut natus animi? Ab, non doloremque atque sunt iure officia repellat. Aperiam, cupiditate id esse animi error ut.</p>
+
+    <ul>
+        <!-- unordered list-->
+        <li>
+            Item 1
+        </li>
+        <li>
+            Item 2
+        </li>
+        <li>
+            Item 3
+        </li>
+    </ul>
+
+    <ol>
+        <!-- ordered list-->
+        <li>
+            Item 1
+        </li>
+        <li>
+            Item 2
+        </li>
+        <li>
+            Item 3
+        </li>
+    </ol>
+
+    <h2 style="color:#346966;">Lab 01b Questions</h2>
+
+    <p style="color:#5BB5B1;">What's your name?</p>
+
+    <p style="color: aquamarine;">How old are you?</p>
+
+    <p style="color: cadetblue;">What is your favorite color?</p>
+
+    <p style="color: grey;">What is your favorite food?</p>
+
+    <p style="color: #BDECEA;">Where did you go to school?</p>
+
+    <script>
+        // Get data from user
+
+        let name = prompt('What\'s your name?');
+        let response1 = 'Your name is: ';
+
+        // displaying data to the user
+
+        alert(response1 + name)
+
+        // displaying more data to user 
+
+        let age = prompt('How old are you?')
+        let response2 = 'Your age is: ';
+
+        alert(response2 + age)
+
+        // log data to console
+        console.log('The user\'s name is ' + name)
+
+        let color = prompt('What is your favorite color?')
+        console.log('The user\'s favorite color is ' + color)
+
+        alert('Your favorite color is ' + color);
+
+        // favorite food
+        let food = prompt('What is your favorite food?')
+        console.log('The user\'s favorite food is ' + food)
+
+        alert('Your favorite food is ' + food)
+
+        // school
+        let school = prompt('Where did you go to school?')
+        console.log('The user went to ' + school)
+    </script>
+
+</body>
+</html>
